@@ -1,0 +1,29 @@
+{
+  "name": "react-styled-comp-rollup-starter-kit",
+  "version": "1.0.0",
+  "description": "template for styled components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6ravitas/react-styled-comp-rollup-starter-kit.git"
+  },
+  "keywords": [
+    "rollup",
+    "react",
+    "styled",
+    "components",
+    "template"
+  ],
+  "author": "6ravitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/6ravitas/react-styled-comp-rollup-starter-kit/issues"
+  },
+  "homepage": "https://github.com/6ravitas/react-styled-comp-rollup-starter-kit#readme",
+  "devDependencies": {
+    "rollup": "^2.6.1"
+  }
+}
