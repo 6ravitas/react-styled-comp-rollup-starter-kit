@@ -13,17 +13,22 @@
   "keywords": [
     "rollup",
     "react",
-    "styled",
-    "components",
+    "styled components",
     "template"
   ],
-  "author": "6ravitas",
+  "author": "Gravitas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/6ravitas/react-styled-comp-rollup-starter-kit/issues"
   },
   "homepage": "https://github.com/6ravitas/react-styled-comp-rollup-starter-kit#readme",
   "devDependencies": {
-    "rollup": "^2.6.1"
+    "rollup": "^2.6.1",
+    "standard": "^14.3.3",
+    "storybook": "^5.3.18"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "styled-components": "^5.1.0"
   }
 }
