@@ -4,6 +4,7 @@
   "description": "template for styled components",
   "main": "src/index.js",
   "scripts": {
+    "build": "rollup -c",
     "storybook": "start-storybook -p 6001 -c config/storybook",
     "storybook:build": "build-storybook"
   },
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@storybook/react": "^5.3.18",
     "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
     "react": "^16.13.1",
     "rollup": "^2.6.1",
     "rollup-plugin-babel": "^4.4.0",

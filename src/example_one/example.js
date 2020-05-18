@@ -14,15 +14,14 @@ const Wrapper = styled.section`
   background: papayawhip;
 `;
 
-
 const Example = () => {
-    return (
-        <Wrapper>
-            <Title>
-                Hello World!
-          </Title>
-        </Wrapper>
-    );
+  return (
+    <Wrapper>
+      <Title>
+        Hello World!
+      </Title>
+    </Wrapper>
+  );
 }
 
 export default Example

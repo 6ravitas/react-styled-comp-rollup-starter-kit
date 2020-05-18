@@ -5,15 +5,17 @@ import uglify from 'rollup-plugin-uglify'
 
 export default {
     input: 'src/index.js',
+    external: ['react', 'styled-components'],
     output: {
         file: 'dist/bundle.js',
         format: 'cjs',
         sourcemap: true,
+        globals: { 'styled-components': 'styled' }
     },
-    external: ['react'],
     plugins: [
         resolve(),
         babel({
+            plugins: ['babel-plugin-styled-components'],
             exclude: 'node_modules/**',
         }),
         commonjs(),
