@@ -1,8 +1,8 @@
 {
   "name": "react-styled-comp-rollup-starter-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "template for styled components",
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "build": "rollup -c",
     "storybook": "start-storybook -p 6001 -c config/storybook",
