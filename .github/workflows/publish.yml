@@ -17,10 +17,6 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm publish --access public
-        with: # All of theses inputs are optional
-          tag_name: "v%s"
-          tag_message: "v%s"
-          commit_pattern: "^Release (\\S+)"
         env: # More info about the environment variables in the README
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
