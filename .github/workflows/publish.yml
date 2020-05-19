@@ -16,6 +16,8 @@ jobs:
           node-version: '13.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
+      - run: npm run lint:fix
+      - run: npm run lint
       - run: npm run build
       - run: npm publish --access public
         env:
