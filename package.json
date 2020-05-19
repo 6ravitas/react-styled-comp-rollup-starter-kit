@@ -1,6 +1,6 @@
 {
   "name": "react-styled-comp-rollup-starter-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "template for styled components",
   "main": "dist/bundle.js",
   "scripts": {
